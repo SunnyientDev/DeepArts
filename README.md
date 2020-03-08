@@ -23,9 +23,3 @@ None means that the output of the model will be the 4D tensor output of the last
 
 ### Loss
 We’ll pass the network both the desired content image and our base input image. This will return the intermediate layer outputs from model. Then we take the euclidean distance between the two intermediate representations of those images.  
-
-More formally, content loss is a function that describes the distance of content from our output image $x$ and our content image, $p$. Let $C_{nn}$ be a pre-trained deep convolutional neural network. 
-
-In this case we use [VGG19](https://keras.io/applications/#vgg19). Let $X$ be any image, then $C_{nn}(X)$ is the network fed by X. Let $F^l_{ij}(x) \in C_{nn}(x)$ and $P^l_{ij}(p) \in C_{nn}(p)$ describe the respective intermediate feature representation of the network with inputs $x$ and $p$ at layer $l$. Then we describe the content distance (loss) formally as: $$L^l_{content}(p, x) = \sum_{i, j} (F^l_{ij}(x) - P^l_{ij}(p))^2$$
-
-We perform backpropagation to minimize this content loss. We change the initial image until it generates a similar response in a certain layer (defined in content_layer) as the original content image.
