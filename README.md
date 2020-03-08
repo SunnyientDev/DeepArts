@@ -2,13 +2,13 @@
 One of the projects of style transfer technology. And not the best.
 
 ### Method
-[Main Paper about style transfer](https://arxiv.org/abs/1508.06576 "Come on, Click on this button)
+[Main Paper about style transfer](https://arxiv.org/abs/1508.06576/ "Come on, Click on this button")
 
 ### Instruments
 * VGG19, Keras Application. 
 It represents deep learning model that are made available alongside pre-trained weights. Keras apps can be used for prediction, feature extraction, and fine-tuning.
 
-VGG19 is a model for image classification with weights trained on [ImageNet](http://www.image-net.org/ "Come on, Click on this button)
+VGG19 is a model for image classification with weights trained on [ImageNet](http://www.image-net.org/ "Come on, Click on this button")
 
 ### Arguments
 * include_top: whether to include the 3 fully-connected layers at the top of the network.
