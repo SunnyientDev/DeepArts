@@ -1,6 +1,6 @@
 # DeepArts
 One of the projects of style transfer technology. And not the best.
-A paper on this work will be published on March 13 (LaTeX file format)
+A paper of this work will be published on March 13 (LaTeX file format)
 
 ### Method
 [Main Paper about style transfer](https://arxiv.org/abs/1508.06576/ "Come on, Click on this button")
