@@ -1,5 +1,6 @@
 # DeepArts
 One of the projects of style transfer technology. And not the best.
+A paper on this work will be published on March 13 (LaTeX file format)
 
 ### Method
 [Main Paper about style transfer](https://arxiv.org/abs/1508.06576/ "Come on, Click on this button")
@@ -23,3 +24,4 @@ None means that the output of the model will be the 4D tensor output of the last
 
 ### Loss
 We’ll pass the network both the desired content image and our base input image. This will return the intermediate layer outputs from model. Then we take the euclidean distance between the two intermediate representations of those images.  
+
